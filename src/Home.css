@@ -1,0 +1,179 @@
+
+.navbar{
+
+  /*border: 2px solid  #2A1D69;*/
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1vw;
+  width: 96vw;
+  border-radius: 8px;
+  position: relative;
+  top: 2vh;
+ 
+
+}
+
+
+.page-heading{
+    min-height: 12vh;
+    max-width: 20vw;
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+  .page-heading h1{
+    text-shadow: 8px 8px 4px #bfbadd;
+  }
+  
+  .nav-head{
+    color:  #2A1D69;
+    padding-left: 1vw;
+    font-size: 44px;
+  }
+  
+  .log-menu{
+    min-height: 12vh;
+    width: 70vw;
+    color:  #2A1D69;
+    max-width: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+    justify-content: space-between;
+
+  }
+
+ #signout-btn{
+  background-color: #f3f2fa;
+  border: none;
+  font-weight: 200;
+ }
+ #signout-btn:hover{
+  color: #2A1D69;
+ }
+
+  .log-button{
+    min-height: 12vh;
+    width: 40vw;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+
+    
+  }
+
+  #login-btn{
+  box-shadow: 4px 6px 10px #2A1D69 ;
+    
+  }
+
+  .google{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+
+  }
+
+
+  .user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2vw;
+    width: auto;
+    background-color: #f3f2fa;
+    padding: 1vh 2vw;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px #2A1D69 ;
+
+
+
+  }
+
+  .user-details {
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1vh 1vw;
+    width: auto;
+    
+    
+  }
+  
+  .user-details h6{
+    font-weight: 200;
+    margin-top: 1vh;
+
+  }
+
+  @media (max-width: 900px) {
+    /* Your CSS styles for smartphones here */
+    .navbar{
+
+  /*border: 2px solid  #2A1D69;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1vw;
+  padding: 2vh 2vw;
+  border-radius: 8px;
+  align-items: center;
+
+}
+.page-heading{
+  display: flex;
+  justify-content: center;
+  min-height: none;
+  }
+  .page-heading h1{
+    text-shadow: 8px 8px 4px #bfbadd;
+  }
+
+
+  .log-menu{
+   width: 100%;
+   display: flex;
+   flex-direction: column-reverse;
+   gap: 2vh;
+
+
+  }
+   .log-button{
+    min-height: 12vh;
+    width: 100%;
+    max-width: none;
+    justify-content: center;
+    
+    
+  }
+  .google{
+   width: 100%;
+
+  }
+
+
+   .user{
+    width: 100%;
+ 
+
+
+
+  }
+
+  .user-details {
+   width: 80%;
+    
+    
+  }
+
+
+  }
+  

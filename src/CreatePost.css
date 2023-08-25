@@ -1,0 +1,122 @@
+
+.create-post-container{
+    width: 25vw;
+    height: 75vh;
+    margin: 4vh 0 0 2vw  ;
+    border-top: 1px solid #2A1D69;
+    border-bottom: 2px solid #2A1D69;
+    border-left: 1px solid #2A1D69;
+    border-right: 2px solid #2A1D69;
+    padding: 2vh 2vw;
+    border-radius:  12px ;
+    position: relative;
+  background-color: #f3f2fa;
+  box-shadow: 2px 4px 8px #7e74af ;
+  max-width: 25vw;
+
+
+
+  }
+
+  .newpost-heading{
+    color:  #2A1D69;
+    background-color: white;
+    padding: 2vh 1vw;
+    border-radius: 8px;
+    margin-bottom: 3vh;
+  box-shadow: 1px 2px 8px #9d96bf ;
+  margin-top: 3vh;
+  
+
+
+  }
+  .newpost-heading h6{
+    font-weight: 300;
+    margin-top:3px ;
+  }
+  
+
+.newpost-input-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 38vh;
+
+    
+}
+
+.custom-text-field{
+  width: 100%;
+  border: transparent;
+  padding: 1vh ;
+  color: #2A1D69;
+  font-weight: 500;
+  font-size: 12px;
+
+
+}
+
+textarea{
+  max-width: 19vw;
+  min-width: 19vw;
+  min-height: 30vh;
+  max-height: 30vh;
+  height: 30vh;
+}
+
+
+.input-field-wrapper{
+  background-color: white;
+  margin: 1vh 0;
+  border-radius: 8px;
+  padding: 1vh 2vh;
+  box-shadow: 1px 2px 4px #9d96bf ;
+
+}
+
+.custom-text-field:focus{
+  color:#2A1D69 ; 
+  outline: #2A1D69;
+  border: transparent;
+}
+
+
+.newpost-button {
+   
+    position: absolute;
+    bottom: 3vh;
+    right: 4vh;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+  
+.create-post-container{
+  width: 100%;
+  max-width: 90vw;
+  margin: 10vh 4vw;
+  box-shadow: none;
+}
+.newpost-heading{
+  color:  #2A1D69;
+  padding: 1vh 2vw;
+  border-radius: 8px;
+box-shadow: none ;
+background-color: transparent;
+
+}
+.newpost-input-container{
+  padding: 2vh 2vw;
+}
+.custom-text-field{
+  width: 100%;
+}
+textarea{
+  width: 100%;
+  min-width: none;
+  max-width: none;
+}
+}
